@@ -1,0 +1,184 @@
+{
+ "scored_mode": "dynamics",
+ "scored_features": [
+  "speed_cv",
+  "iki_cv",
+  "tremor_ratio",
+  "latency_ratio"
+ ],
+ "shape_features": [
+  "path_efficiency",
+  "reversal_per_100",
+  "click_per_100ev",
+  "text_per_100ev",
+  "dictation_ratio",
+  "burst_len_mean",
+  "correction_rate"
+ ],
+ "dynamics_features": [
+  "speed_cv",
+  "iki_cv",
+  "tremor_ratio",
+  "latency_ratio"
+ ],
+ "styles": {
+  "gaze_dictation": {
+   "threshold": 1.57,
+   "threshold_evidence": [
+    1.035,
+    1.076,
+    1.084,
+    1.137,
+    1.148,
+    1.264,
+    1.271,
+    1.302,
+    1.367,
+    1.559,
+    1.572,
+    1.757
+   ],
+   "replay": {
+    "opened": 8,
+    "presented": 8,
+    "false_accept_rate": 1.0,
+    "deciding_features": [
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 2.0,
+      "times_top3": 5
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.94,
+      "times_top3": 8
+     },
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 0.56,
+      "times_top3": 5
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.5,
+      "times_top3": 6
+     }
+    ]
+   },
+   "watcher": {
+    "opened": 5,
+    "presented": 8,
+    "false_accept_rate": 0.625,
+    "deciding_features": [
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 2.32,
+      "times_top3": 6
+     },
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.65,
+      "times_top3": 4
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 1.48,
+      "times_top3": 6
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.84,
+      "times_top3": 8
+     }
+    ]
+   }
+  },
+  "mouse_keyboard": {
+   "threshold": 1.7,
+   "threshold_evidence": [
+    0.397,
+    0.464,
+    0.636,
+    0.782,
+    0.912,
+    0.913,
+    0.948,
+    0.965,
+    1.226,
+    1.279,
+    1.703,
+    1.717
+   ],
+   "replay": {
+    "opened": 8,
+    "presented": 8,
+    "false_accept_rate": 1.0,
+    "deciding_features": [
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 0.97,
+      "times_top3": 7
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.73,
+      "times_top3": 4
+     },
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 0.6,
+      "times_top3": 5
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.5,
+      "times_top3": 8
+     }
+    ]
+   },
+   "watcher": {
+    "opened": 8,
+    "presented": 8,
+    "false_accept_rate": 1.0,
+    "deciding_features": [
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.89,
+      "times_top3": 8
+     },
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.2,
+      "times_top3": 4
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.9,
+      "times_top3": 6
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.7,
+      "times_top3": 6
+     }
+    ]
+   }
+  }
+ }
+}

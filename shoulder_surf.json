@@ -1,0 +1,213 @@
+{
+ "scored_mode": "all",
+ "scored_features": [
+  "speed_cv",
+  "path_efficiency",
+  "reversal_per_100",
+  "click_per_100ev",
+  "text_per_100ev",
+  "iki_cv",
+  "correction_rate",
+  "burst_len_mean",
+  "dictation_ratio",
+  "tremor_ratio",
+  "latency_ratio"
+ ],
+ "shape_features": [
+  "path_efficiency",
+  "reversal_per_100",
+  "click_per_100ev",
+  "text_per_100ev",
+  "dictation_ratio",
+  "burst_len_mean",
+  "correction_rate"
+ ],
+ "dynamics_features": [
+  "speed_cv",
+  "iki_cv",
+  "tremor_ratio",
+  "latency_ratio"
+ ],
+ "styles": {
+  "gaze_dictation": {
+   "threshold": 3.26,
+   "threshold_evidence": [],
+   "replay": {
+    "opened": 8,
+    "presented": 8,
+    "false_accept_rate": 1.0,
+    "deciding_features": [
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 2.38,
+      "times_top3": 4
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 1.47,
+      "times_top3": 3
+     },
+     {
+      "feature": "burst_len_mean",
+      "kind": "SHAPE",
+      "mean_z": 1.32,
+      "times_top3": 5
+     },
+     {
+      "feature": "correction_rate",
+      "kind": "SHAPE",
+      "mean_z": 1.3,
+      "times_top3": 2
+     },
+     {
+      "feature": "text_per_100ev",
+      "kind": "SHAPE",
+      "mean_z": 1.1,
+      "times_top3": 3
+     },
+     {
+      "feature": "click_per_100ev",
+      "kind": "SHAPE",
+      "mean_z": 1.07,
+      "times_top3": 4
+     }
+    ]
+   },
+   "watcher": {
+    "opened": 7,
+    "presented": 8,
+    "false_accept_rate": 0.875,
+    "deciding_features": [
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 2.68,
+      "times_top3": 5
+     },
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.65,
+      "times_top3": 4
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 1.48,
+      "times_top3": 6
+     },
+     {
+      "feature": "burst_len_mean",
+      "kind": "SHAPE",
+      "mean_z": 1.43,
+      "times_top3": 3
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 1.35,
+      "times_top3": 2
+     },
+     {
+      "feature": "correction_rate",
+      "kind": "SHAPE",
+      "mean_z": 1.3,
+      "times_top3": 2
+     }
+    ]
+   }
+  },
+  "mouse_keyboard": {
+   "threshold": 3.26,
+   "threshold_evidence": [],
+   "replay": {
+    "opened": 8,
+    "presented": 8,
+    "false_accept_rate": 1.0,
+    "deciding_features": [
+     {
+      "feature": "text_per_100ev",
+      "kind": "SHAPE",
+      "mean_z": 1.87,
+      "times_top3": 3
+     },
+     {
+      "feature": "correction_rate",
+      "kind": "SHAPE",
+      "mean_z": 1.76,
+      "times_top3": 5
+     },
+     {
+      "feature": "path_efficiency",
+      "kind": "SHAPE",
+      "mean_z": 1.2,
+      "times_top3": 6
+     },
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.1,
+      "times_top3": 6
+     },
+     {
+      "feature": "latency_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.95,
+      "times_top3": 2
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 0.65,
+      "times_top3": 2
+     }
+    ]
+   },
+   "watcher": {
+    "opened": 5,
+    "presented": 8,
+    "false_accept_rate": 0.625,
+    "deciding_features": [
+     {
+      "feature": "speed_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.89,
+      "times_top3": 8
+     },
+     {
+      "feature": "text_per_100ev",
+      "kind": "SHAPE",
+      "mean_z": 1.87,
+      "times_top3": 3
+     },
+     {
+      "feature": "iki_cv",
+      "kind": "DYNAMICS",
+      "mean_z": 1.85,
+      "times_top3": 2
+     },
+     {
+      "feature": "correction_rate",
+      "kind": "SHAPE",
+      "mean_z": 1.58,
+      "times_top3": 6
+     },
+     {
+      "feature": "path_efficiency",
+      "kind": "SHAPE",
+      "mean_z": 1.45,
+      "times_top3": 2
+     },
+     {
+      "feature": "tremor_ratio",
+      "kind": "DYNAMICS",
+      "mean_z": 1.25,
+      "times_top3": 2
+     }
+    ]
+   }
+  }
+ }
+}

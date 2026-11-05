@@ -139,3 +139,50 @@ application, and a reader ignores fields it does not know.
 ## Licence
 
 MIT.
+
+## The shoulder-surfer test (and why the fallback cannot be behavioural)
+
+The sponsor's constraint says the fallback is part of the problem: her current password entry
+is either repeatable by anyone in the room or too painful to keep long. So the obvious attack
+on a movement verifier is somebody who watches her use it. `python3 shoulder_surf.py` measures
+that instead of arguing about it, with two opponents built to be as close to the attacker as
+fake data allows:
+
+- **replay** - the session copied exactly, positions *and* timestamps, played back.
+- **watcher** - the visible path copied exactly (every position, click, text label and
+  correction) but paced with a stranger's rhythm, rescaled so the watcher spends the same
+  total time. That is the fair version: the copier is neither obviously fast nor slow.
+
+| scored set | owner | replay | watcher (gaze) | watcher (mouse) |
+|---|---|---|---|---|
+| all 11 features (shipped method) | 8/8 open | **8/8 open** | 7/8 open | 5/8 open |
+| only the 4 invisible dynamics features | 8/8 open | **8/8 open** | 5/8 open | 8/8 open |
+
+Two results, and both are bad for the method, which is why they are here.
+
+**One: a replay gets in, every time, 8 of 8, under both scored sets.** This is not a bug to
+tune away. There is nothing in a replayed recording that is not in the recording it replayed,
+so a check that only measures movement cannot tell the two apart. `tremor_ratio` is a good
+feature and it is zero help against a perfect copy, because a perfect copy has the owner's
+tremor in it. **A fallback built on behaviour alone is therefore repeatable by anyone in the
+room who can record her once**, which is exactly the failure the sponsor named.
+
+**Two: restricting the score to the four invisible features did not fix the watcher, and made
+the mouse case worse - 5/8 to 8/8.** The reason is in the table: the threshold has to be
+re-derived from enrolment for the restricted set, and it drops (3.26 to 1.57 and 1.70)
+because her own dynamics vary that much between a rested and a tired session. The tolerance
+that admits her on a bad day is the same tolerance that admits a copier who is merely within
+the band. The shape features were doing real work; removing them did not remove the watcher,
+it removed the margin.
+
+**What this means for the design, stated plainly.** The behavioural layer can only ever make
+the password *rarely needed*. It cannot be the gate, because it cannot survive a recording.
+Whatever guards the vault needs a **fresh challenge tied to the moment** - something that did
+not exist when the recording was made and cannot be pre-recorded, so that a replay has
+nothing to answer. That is a design requirement, not a tuning parameter, and it is the honest
+answer to the sponsor's constraint: the fallback is not a better password, it is a challenge
+the room cannot anticipate. The next piece of this work is to build that challenge and check
+that her dynamics accept it while a copied one does not.
+
+Limits, unchanged and still true: fake data, a modelled tired day, and a mimic that imitates
+visible habits rather than a caregiver with years of real sessions.
