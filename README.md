@@ -234,3 +234,32 @@ holding the door.
 
 Limits unchanged: fake data, a modelled tired day, and a mimic that imitates visible habits
 rather than a caregiver with years of real recordings.
+
+## The gate that observation cannot defeat: out-of-room approval
+
+`python3 approve.py selftest` - measured, four claims, no arguments:
+
+| | result | why |
+|---|---|---|
+| owner holding the off-room key | **ADMITTED** | token matches |
+| the same token offered twice | **REFUSED** | the nonce was already spent (single use) |
+| an impostor who watched the screen and knows nonce **and** code | **REFUSED** | not signed with the off-room key |
+| an approval recorded for an earlier nonce | **REFUSED** | not bound to this challenge |
+
+The rule it implements: the authority to approve lives off the machine and off the room, and
+the only thing that crosses back is a value bound to a nonce that did not exist a moment ago.
+The local screen can show the nonce and the four-character code to everyone present and it
+costs nothing, because knowing them is not enough to approve - the secret that makes an
+approval valid never enters the room.
+
+That is the difference between this and the movement layer, and it is worth stating plainly.
+The movement layer is defeated by watching: an impostor in the room opens 6 of 6 in mouse.
+This gate is not defeated by watching, because there is nothing in the room to watch. What the
+joystick is used for here is *initiate* and *cancel* - movements a copier can reproduce, and
+whose reproduction now buys them nothing, because an approval they did not sign is not an
+approval.
+
+What this does not solve: whoever holds the key. That is a possession problem with a physical
+answer - the key stays on a device that stays out of the room - not a statistical one, which is
+exactly why it is the right thing to put at the gate. Behaviour stays where the numbers put it:
+making the password rarely needed, never holding the door.
