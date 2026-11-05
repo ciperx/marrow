@@ -1,0 +1,48 @@
+{
+ "scored": "dynamics",
+ "nonces": 6,
+ "styles": {
+  "gaze_dictation": {
+   "threshold": 1.57,
+   "owner": {
+    "opened": 0,
+    "presented": 6
+   },
+   "watcher": {
+    "opened": 0,
+    "presented": 6
+   },
+   "replay_nonce": {
+    "opened": 0,
+    "presented": 6
+   },
+   "replay_scored": {
+    "opened": 6,
+    "presented": 6
+   },
+   "nonce_defeats_replay": true,
+   "watcher_still_gets_in": false
+  },
+  "mouse_keyboard": {
+   "threshold": 1.7,
+   "owner": {
+    "opened": 6,
+    "presented": 6
+   },
+   "watcher": {
+    "opened": 6,
+    "presented": 6
+   },
+   "replay_nonce": {
+    "opened": 0,
+    "presented": 6
+   },
+   "replay_scored": {
+    "opened": 6,
+    "presented": 6
+   },
+   "nonce_defeats_replay": true,
+   "watcher_still_gets_in": true
+  }
+ }
+}

@@ -186,3 +186,51 @@ that her dynamics accept it while a copied one does not.
 
 Limits, unchanged and still true: fake data, a modelled tired day, and a mimic that imitates
 visible habits rather than a caregiver with years of real sessions.
+
+## The challenge, and what it does and does not buy
+
+`python3 challenge.py` replaces "present a session" with a challenge. The verifier issues a
+nonce - a route hash for a target path that did not exist a moment ago - the user walks it,
+and anything whose nonce does not match is refused before the movement is looked at. Scoring
+is restricted to the four invisible dynamics features, because the route is now identical for
+everybody and shape carries no identity at all.
+
+| | gaze_dictation | mouse_keyboard |
+|---|---|---|
+| owner on a fresh route | 0/6 | 6/6 |
+| **watcher on the same fresh route** | 0/6 | **6/6** |
+| replay: refused by the nonce check | **0/6** | **0/6** |
+| replay: would the score have admitted it, without that check | **6/6** | **6/6** |
+
+Three honest readings.
+
+**One: the challenge removes the recording attack outright.** The replay is refused 0 of 6, and
+the row under it is the proof that this is the nonce and not the statistics - the very same
+recording is admitted 6 of 6 when the nonce check is removed. That is a real reduction, and it
+is the answer to "repeatable by anyone in the room": a recording made yesterday cannot answer a
+route issued today. This is not a tuning improvement, it is the deletion of an attacker.
+
+**Two: it does not refuse an impostor who is actually present, and I will not pretend
+otherwise.** The watcher passes the nonce check honestly, and once it does, the movement layer
+does not separate them from the owner anywhere the owner is also admitted. In mouse the owner
+opens 6 of 6 and the watcher opens 6 of 6. In gaze the watcher opens 0 of 6 - but so does the
+owner, so that is a broken operating point and not discrimination. In this corpus there is no
+evidence at all that the verifier tells her from a copier on a route neither has walked before.
+
+**Three: the gaze operating point is worse than useless and should be reported as a failure.**
+Her rhythm on a path she has never walked is more variable than the same rhythm on her own
+path, and a threshold derived from her enrolment no longer admits her. A verifier built this
+way would lock her out on the days it mattered.
+
+**What follows for the design.** The nonce converts "a secret that can be repeated by anyone
+who heard it" into "an impostor who must physically be here while she authenticates". That is a
+real improvement to her threat model and it is not authentication. The residual attacker is
+someone present, and no amount of movement statistics in this corpus refuses them. So the
+fallback should not be a better thing to remember or a better way to move. It should be a
+factor that is not *in the room* - something she actuates with the joystick she already uses,
+but which is approved on a device the room cannot see, or by a person on a channel the room
+cannot read. Behaviour stays where it belongs: making the password rarely needed, never
+holding the door.
+
+Limits unchanged: fake data, a modelled tired day, and a mimic that imitates visible habits
+rather than a caregiver with years of real recordings.
