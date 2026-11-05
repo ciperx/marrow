@@ -1,0 +1,727 @@
+{
+ "note": "fake data only; no real movement recordings anywhere",
+ "enrolment_per_subject": 6,
+ "test_per_subject": 4,
+ "sessions": [
+  {
+   "session_id": "mouse_keyboard-owner-enrol-00",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-00.jsonl",
+   "tired": false,
+   "events": 1517
+  },
+  {
+   "session_id": "mouse_keyboard-owner-enrol-01",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-01.jsonl",
+   "tired": false,
+   "events": 2373
+  },
+  {
+   "session_id": "mouse_keyboard-owner-enrol-02",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-02.jsonl",
+   "tired": false,
+   "events": 2243
+  },
+  {
+   "session_id": "mouse_keyboard-owner-enrol-03",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-03.jsonl",
+   "tired": false,
+   "events": 1605
+  },
+  {
+   "session_id": "mouse_keyboard-owner-enrol-04",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-04.jsonl",
+   "tired": false,
+   "events": 2102
+  },
+  {
+   "session_id": "mouse_keyboard-owner-enrol-05",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner-enrol-05.jsonl",
+   "tired": false,
+   "events": 1359
+  },
+  {
+   "session_id": "mouse_keyboard-owner-test-00",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner-test-00.jsonl",
+   "tired": false,
+   "events": 1495
+  },
+  {
+   "session_id": "mouse_keyboard-owner-test-01",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner-test-01.jsonl",
+   "tired": false,
+   "events": 1514
+  },
+  {
+   "session_id": "mouse_keyboard-owner-test-02",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner-test-02.jsonl",
+   "tired": false,
+   "events": 2447
+  },
+  {
+   "session_id": "mouse_keyboard-owner-test-03",
+   "style": "mouse_keyboard",
+   "subject": "owner",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner-test-03.jsonl",
+   "tired": false,
+   "events": 2586
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-00",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-00.jsonl",
+   "tired": true,
+   "events": 2535
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-01",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-01.jsonl",
+   "tired": true,
+   "events": 2069
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-02",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-02.jsonl",
+   "tired": true,
+   "events": 1600
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-03",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-03.jsonl",
+   "tired": true,
+   "events": 2856
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-04",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-04.jsonl",
+   "tired": true,
+   "events": 2816
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-enrol-05",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-enrol-05.jsonl",
+   "tired": true,
+   "events": 2885
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-test-00",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-test-00.jsonl",
+   "tired": true,
+   "events": 1941
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-test-01",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-test-01.jsonl",
+   "tired": true,
+   "events": 2420
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-test-02",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-test-02.jsonl",
+   "tired": true,
+   "events": 2285
+  },
+  {
+   "session_id": "mouse_keyboard-owner_tired-test-03",
+   "style": "mouse_keyboard",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-owner_tired-test-03.jsonl",
+   "tired": true,
+   "events": 2183
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-00",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-00.jsonl",
+   "tired": false,
+   "events": 2922
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-01",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-01.jsonl",
+   "tired": false,
+   "events": 3087
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-02",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-02.jsonl",
+   "tired": false,
+   "events": 2888
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-03",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-03.jsonl",
+   "tired": false,
+   "events": 3625
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-04",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-04.jsonl",
+   "tired": false,
+   "events": 3742
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-enrol-05",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-enrol-05.jsonl",
+   "tired": false,
+   "events": 3136
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-test-00",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-test-00.jsonl",
+   "tired": false,
+   "events": 3166
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-test-01",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-test-01.jsonl",
+   "tired": false,
+   "events": 3925
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-test-02",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-test-02.jsonl",
+   "tired": false,
+   "events": 3368
+  },
+  {
+   "session_id": "mouse_keyboard-stranger-test-03",
+   "style": "mouse_keyboard",
+   "subject": "stranger",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-stranger-test-03.jsonl",
+   "tired": false,
+   "events": 3354
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-00",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-00.jsonl",
+   "tired": false,
+   "events": 2136
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-01",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-01.jsonl",
+   "tired": false,
+   "events": 1911
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-02",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-02.jsonl",
+   "tired": false,
+   "events": 1446
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-03",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-03.jsonl",
+   "tired": false,
+   "events": 1562
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-04",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-04.jsonl",
+   "tired": false,
+   "events": 1462
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-enrol-05",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-enrol-05.jsonl",
+   "tired": false,
+   "events": 1314
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-test-00",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-test-00.jsonl",
+   "tired": false,
+   "events": 1873
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-test-01",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-test-01.jsonl",
+   "tired": false,
+   "events": 1364
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-test-02",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-test-02.jsonl",
+   "tired": false,
+   "events": 1910
+  },
+  {
+   "session_id": "mouse_keyboard-mimic-test-03",
+   "style": "mouse_keyboard",
+   "subject": "mimic",
+   "split": "test",
+   "path": "mouse_keyboard/mouse_keyboard-mimic-test-03.jsonl",
+   "tired": false,
+   "events": 1480
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-00",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-00.jsonl",
+   "tired": false,
+   "events": 2857
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-01",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-01.jsonl",
+   "tired": false,
+   "events": 2163
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-02",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-02.jsonl",
+   "tired": false,
+   "events": 1682
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-03",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-03.jsonl",
+   "tired": false,
+   "events": 2073
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-04",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-04.jsonl",
+   "tired": false,
+   "events": 2025
+  },
+  {
+   "session_id": "gaze_dictation-owner-enrol-05",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner-enrol-05.jsonl",
+   "tired": false,
+   "events": 2252
+  },
+  {
+   "session_id": "gaze_dictation-owner-test-00",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner-test-00.jsonl",
+   "tired": false,
+   "events": 1854
+  },
+  {
+   "session_id": "gaze_dictation-owner-test-01",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner-test-01.jsonl",
+   "tired": false,
+   "events": 2055
+  },
+  {
+   "session_id": "gaze_dictation-owner-test-02",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner-test-02.jsonl",
+   "tired": false,
+   "events": 1942
+  },
+  {
+   "session_id": "gaze_dictation-owner-test-03",
+   "style": "gaze_dictation",
+   "subject": "owner",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner-test-03.jsonl",
+   "tired": false,
+   "events": 2058
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-00",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-00.jsonl",
+   "tired": true,
+   "events": 2784
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-01",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-01.jsonl",
+   "tired": true,
+   "events": 2478
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-02",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-02.jsonl",
+   "tired": true,
+   "events": 2664
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-03",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-03.jsonl",
+   "tired": true,
+   "events": 3082
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-04",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-04.jsonl",
+   "tired": true,
+   "events": 2042
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-enrol-05",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-enrol-05.jsonl",
+   "tired": true,
+   "events": 1458
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-test-00",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-test-00.jsonl",
+   "tired": true,
+   "events": 3293
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-test-01",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-test-01.jsonl",
+   "tired": true,
+   "events": 3385
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-test-02",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-test-02.jsonl",
+   "tired": true,
+   "events": 1592
+  },
+  {
+   "session_id": "gaze_dictation-owner_tired-test-03",
+   "style": "gaze_dictation",
+   "subject": "owner_tired",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-owner_tired-test-03.jsonl",
+   "tired": true,
+   "events": 2848
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-00",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-00.jsonl",
+   "tired": false,
+   "events": 2303
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-01",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-01.jsonl",
+   "tired": false,
+   "events": 2131
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-02",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-02.jsonl",
+   "tired": false,
+   "events": 2063
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-03",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-03.jsonl",
+   "tired": false,
+   "events": 2570
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-04",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-04.jsonl",
+   "tired": false,
+   "events": 2422
+  },
+  {
+   "session_id": "gaze_dictation-stranger-enrol-05",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-stranger-enrol-05.jsonl",
+   "tired": false,
+   "events": 2587
+  },
+  {
+   "session_id": "gaze_dictation-stranger-test-00",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-stranger-test-00.jsonl",
+   "tired": false,
+   "events": 2508
+  },
+  {
+   "session_id": "gaze_dictation-stranger-test-01",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-stranger-test-01.jsonl",
+   "tired": false,
+   "events": 2239
+  },
+  {
+   "session_id": "gaze_dictation-stranger-test-02",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-stranger-test-02.jsonl",
+   "tired": false,
+   "events": 2170
+  },
+  {
+   "session_id": "gaze_dictation-stranger-test-03",
+   "style": "gaze_dictation",
+   "subject": "stranger",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-stranger-test-03.jsonl",
+   "tired": false,
+   "events": 2477
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-00",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-00.jsonl",
+   "tired": false,
+   "events": 2667
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-01",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-01.jsonl",
+   "tired": false,
+   "events": 2536
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-02",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-02.jsonl",
+   "tired": false,
+   "events": 1970
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-03",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-03.jsonl",
+   "tired": false,
+   "events": 1699
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-04",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-04.jsonl",
+   "tired": false,
+   "events": 1877
+  },
+  {
+   "session_id": "gaze_dictation-mimic-enrol-05",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "enrol",
+   "path": "gaze_dictation/gaze_dictation-mimic-enrol-05.jsonl",
+   "tired": false,
+   "events": 2453
+  },
+  {
+   "session_id": "gaze_dictation-mimic-test-00",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-mimic-test-00.jsonl",
+   "tired": false,
+   "events": 2447
+  },
+  {
+   "session_id": "gaze_dictation-mimic-test-01",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-mimic-test-01.jsonl",
+   "tired": false,
+   "events": 3558
+  },
+  {
+   "session_id": "gaze_dictation-mimic-test-02",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-mimic-test-02.jsonl",
+   "tired": false,
+   "events": 2358
+  },
+  {
+   "session_id": "gaze_dictation-mimic-test-03",
+   "style": "gaze_dictation",
+   "subject": "mimic",
+   "split": "test",
+   "path": "gaze_dictation/gaze_dictation-mimic-test-03.jsonl",
+   "tired": false,
+   "events": 2484
+  }
+ ]
+}
